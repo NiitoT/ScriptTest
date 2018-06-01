@@ -10,6 +10,11 @@ public class Test : MonoBehaviour
         // 要素数5の配列を初期化する
         int[] points = { 0,10,20,30,40 };
 
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log(i);
+        }
+
         // 配列の要素をすべて表示する
         for (int i = 5 - 1 ; i >= 0; i--)
         {
